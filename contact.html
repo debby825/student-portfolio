@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Website</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="about.html">About me</a> |
+      <a href="gallery.html">My Pictures</a> |
+      <a href="timetable.html">My Timetable</a> |
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  
+  <form>
+    <section>
+    <h3>Personal Information</h3>
+      <label for="name">Full name:</label><br>
+      <input type="text" id="name" placeholder="Enter your name"><br><br>
+      <label for="email">Email address:</label><br>
+      <input type="email" id="email" placeholder="Enter your Email Address"><br><br>
+      <label for="password">Password</label><br>
+      <input type="text" id="password" placeholder="Enter your Password"><br><br>
+       <label for="number">Enter your phone number</label><br>
+      <input type="tel" id="phone number" placeholder="Enter you phone number"><br><br>
+      <label for="dob">Date of Birth</label>
+      <input type="date" id="dob" name="date of birth"><br><br>
+      <label>Gender:</label><br>
+      
+      <input type="radio" name="gender" id="male">
+      <label for="male">Male</label>
+      <br>
+      <input type="radio" name="gender" id="female">
+      <label for="female">Female</label>
+    <br><br>
+    </section>
+    
+    <section>
+    <label for="country">Country:</label>
+
+<select id="country" name="country">
+    <option value="">Select your country</option>
+    <option value="nigeria">Nigeria</option>
+    <option value="ghana">Ghana</option>
+    <option value="kenya">Kenya</option>
+    <option value="south-africa">South Africa</option>
+    <option value="usa">United States</option>
+</select>
+      <br><br>
+      <label for="photo">Upload your picture:</label>
+
+<input type="file" id="photo" name="photo">
+      <br><br>
+      <button type="submit">Submit</button>
+<button type="reset">Reset</button>
+    
+    </section>
+    </form>
+</body>
+
+</html>
